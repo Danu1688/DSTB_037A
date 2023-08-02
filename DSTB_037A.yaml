@@ -1,0 +1,197 @@
+proxies:
+- name: Danu30_AkrabNusa1
+  type: trojan
+  server: 104.18.1.196
+  port: 443
+  password: ddd9da3d-b28f-4243-b395-f44fca350209
+  udp: true
+  sni: nusa1.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: nusa1.myserver-prem.cloud
+  interface-name: eth1
+- name: Danu30_AkrabNusa2
+  type: trojan
+  server: 104.18.2.198
+  port: 443
+  password: ddd9da3d-b28f-4243-b395-f44fca350209
+  udp: true
+  sni: nusa1.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: nusa1.myserver-prem.cloud
+  interface-name: eth1
+- name: Danu30_AkrabNusa3
+  type: trojan
+  server: 104.18.3.198
+  port: 443
+  password: ddd9da3d-b28f-4243-b395-f44fca350209
+  udp: true
+  sni: nusa1.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: nusa1.myserver-prem.cloud
+  interface-name: eth1
+- name: Danu30_AkrabNusa4
+  type: trojan
+  server: 104.17.3.81
+  port: 443
+  password: ddd9da3d-b28f-4243-b395-f44fca350209
+  udp: true
+  sni: nusa1.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: nusa1.myserver-prem.cloud
+  interface-name: eth1
+- name: Danu30_AkrabNusa5
+  type: trojan
+  server: 104.18.0.196
+  port: 443
+  password: ddd9da3d-b28f-4243-b395-f44fca350209
+  udp: true
+  sni: nusa1.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: nusa1.myserver-prem.cloud
+  interface-name: eth1
+- name: Danu30_AkrabNusa6
+  type: trojan
+  server: cdn.noice.id
+  port: 443
+  password: ddd9da3d-b28f-4243-b395-f44fca350209
+  udp: true
+  sni: nusa1.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: nusa1.myserver-prem.cloud
+  interface-name: eth1
+- name: Danu30_AkrabNusa7
+  type: trojan
+  server: 104.20.75.141
+  port: 443
+  password: ddd9da3d-b28f-4243-b395-f44fca350209
+  udp: true
+  sni: nusa1.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: nusa1.myserver-prem.cloud
+  interface-name: eth1
+- name: DanuBackup_AkrabDO1
+  type: trojan
+  server: 104.18.1.196
+  port: 443
+  password: 39ca4c74-9abd-4c33-9e11-b779fea93c50
+  udp: true
+  sni: do-2device.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: do-2device.myserver-prem.cloud
+  interface-name: eth1
+- name: DanuBackup_AkrabDO2
+  type: trojan
+  server: 104.18.2.198
+  port: 443
+  password: 39ca4c74-9abd-4c33-9e11-b779fea93c50
+  udp: true
+  sni: do-2device.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: do-2device.myserver-prem.cloud
+  interface-name: eth1
+- name: DanuBackup_AkrabDO3
+  type: trojan
+  server: 104.18.3.198
+  port: 443
+  password: 39ca4c74-9abd-4c33-9e11-b779fea93c50
+  udp: true
+  sni: do-2device.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: do-2device.myserver-prem.cloud
+  interface-name: eth1
+- name: DanuBackup_AkrabDO4
+  type: trojan
+  server: 104.17.3.81
+  port: 443
+  password: 39ca4c74-9abd-4c33-9e11-b779fea93c50
+  udp: true
+  sni: do-2device.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: do-2device.myserver-prem.cloud
+  interface-name: eth1
+- name: DanuBackup_AkrabDO5
+  type: trojan
+  server: 104.18.0.196
+  port: 443
+  password: 39ca4c74-9abd-4c33-9e11-b779fea93c50
+  udp: true
+  sni: do-2device.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: do-2device.myserver-prem.cloud
+  interface-name: eth1
+- name: DanuBackup_AkrabDO6
+  type: trojan
+  server: cdn.noice.id
+  port: 443
+  password: 39ca4c74-9abd-4c33-9e11-b779fea93c50
+  udp: true
+  sni: do-2device.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: do-2device.myserver-prem.cloud
+  interface-name: eth1
+- name: DanuBackup_AkrabDO7
+  type: trojan
+  server: 104.20.75.141
+  port: 443
+  password: 39ca4c74-9abd-4c33-9e11-b779fea93c50
+  udp: true
+  sni: do-2device.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: do-2device.myserver-prem.cloud
+  interface-name: eth1
