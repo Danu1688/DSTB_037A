@@ -1,103 +1,103 @@
 proxies:
-- name: Danu30_AkrabNusa1
+- name: Danu37_AkrabNata37_1
   type: trojan
   server: 104.18.1.196
   port: 443
-  password: ddd9da3d-b28f-4243-b395-f44fca350209
+  password: 38e2ac25-e775-43af-a577-e66c2b607c87
   udp: true
-  sni: nusa1.myserver-prem.cloud
+  sni: nata1.myserver-prem.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan
     headers:
-      Host: nusa1.myserver-prem.cloud
+      Host: nata1.myserver-prem.cloud
   interface-name: eth1
-- name: Danu30_AkrabNusa2
+- name: Danu37_AkrabNata37_2
   type: trojan
   server: 104.18.2.198
   port: 443
-  password: ddd9da3d-b28f-4243-b395-f44fca350209
+  password: 38e2ac25-e775-43af-a577-e66c2b607c87
   udp: true
-  sni: nusa1.myserver-prem.cloud
+  sni: nata1.myserver-prem.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan
     headers:
-      Host: nusa1.myserver-prem.cloud
+      Host: nata1.myserver-prem.cloud
   interface-name: eth1
-- name: Danu30_AkrabNusa3
+- name: Danu37_AkrabNata37_3
   type: trojan
   server: 104.18.3.198
   port: 443
-  password: ddd9da3d-b28f-4243-b395-f44fca350209
+  password: 38e2ac25-e775-43af-a577-e66c2b607c87
   udp: true
-  sni: nusa1.myserver-prem.cloud
+  sni: nata1.myserver-prem.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan
     headers:
-      Host: nusa1.myserver-prem.cloud
+      Host: nata1.myserver-prem.cloud
   interface-name: eth1
-- name: Danu30_AkrabNusa4
+- name: Danu37_AkrabNata37_4
   type: trojan
   server: 104.17.3.81
   port: 443
-  password: ddd9da3d-b28f-4243-b395-f44fca350209
+  password: 38e2ac25-e775-43af-a577-e66c2b607c87
   udp: true
-  sni: nusa1.myserver-prem.cloud
+  sni: nata1.myserver-prem.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan
     headers:
-      Host: nusa1.myserver-prem.cloud
+      Host: nata1.myserver-prem.cloud
   interface-name: eth1
-- name: Danu30_AkrabNusa5
+- name: Danu37_AkrabNata37_5
   type: trojan
   server: 104.18.0.196
   port: 443
-  password: ddd9da3d-b28f-4243-b395-f44fca350209
+  password: 38e2ac25-e775-43af-a577-e66c2b607c87
   udp: true
-  sni: nusa1.myserver-prem.cloud
+  sni: nata1.myserver-prem.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan
     headers:
-      Host: nusa1.myserver-prem.cloud
+      Host: nata1.myserver-prem.cloud
   interface-name: eth1
-- name: Danu30_AkrabNusa6
+- name: Danu37_AkrabNata37_6
   type: trojan
   server: cdn.noice.id
   port: 443
-  password: ddd9da3d-b28f-4243-b395-f44fca350209
+  password: 38e2ac25-e775-43af-a577-e66c2b607c87
   udp: true
-  sni: nusa1.myserver-prem.cloud
+  sni: nata1.myserver-prem.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan
     headers:
-      Host: nusa1.myserver-prem.cloud
+      Host: nata1.myserver-prem.cloud
   interface-name: eth1
-- name: Danu30_AkrabNusa7
+- name: Danu37_AkrabNata37_7
   type: trojan
   server: 104.20.75.141
   port: 443
-  password: ddd9da3d-b28f-4243-b395-f44fca350209
+  password: 38e2ac25-e775-43af-a577-e66c2b607c87
   udp: true
-  sni: nusa1.myserver-prem.cloud
+  sni: nata1.myserver-prem.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan
     headers:
-      Host: nusa1.myserver-prem.cloud
+      Host: nata1.myserver-prem.cloud
   interface-name: eth1
-- name: DanuBackup_AkrabDO1
+- name: DanuBackup_AkrabDO37_1
   type: trojan
   server: 104.18.1.196
   port: 443
@@ -111,7 +111,7 @@ proxies:
     headers:
       Host: do-2device.myserver-prem.cloud
   interface-name: eth1
-- name: DanuBackup_AkrabDO2
+- name: DanuBackup_AkrabDO37_2
   type: trojan
   server: 104.18.2.198
   port: 443
@@ -125,7 +125,7 @@ proxies:
     headers:
       Host: do-2device.myserver-prem.cloud
   interface-name: eth1
-- name: DanuBackup_AkrabDO3
+- name: DanuBackup_AkrabDO37_3
   type: trojan
   server: 104.18.3.198
   port: 443
@@ -139,7 +139,7 @@ proxies:
     headers:
       Host: do-2device.myserver-prem.cloud
   interface-name: eth1
-- name: DanuBackup_AkrabDO4
+- name: DanuBackup_AkrabDO37_4
   type: trojan
   server: 104.17.3.81
   port: 443
@@ -153,7 +153,7 @@ proxies:
     headers:
       Host: do-2device.myserver-prem.cloud
   interface-name: eth1
-- name: DanuBackup_AkrabDO5
+- name: DanuBackup_AkrabDO37_5
   type: trojan
   server: 104.18.0.196
   port: 443
@@ -167,7 +167,7 @@ proxies:
     headers:
       Host: do-2device.myserver-prem.cloud
   interface-name: eth1
-- name: DanuBackup_AkrabDO6
+- name: DanuBackup_AkrabDO37_6
   type: trojan
   server: cdn.noice.id
   port: 443
@@ -181,7 +181,7 @@ proxies:
     headers:
       Host: do-2device.myserver-prem.cloud
   interface-name: eth1
-- name: DanuBackup_AkrabDO7
+- name: DanuBackup_AkrabDO37_7
   type: trojan
   server: 104.20.75.141
   port: 443
@@ -195,3 +195,4 @@ proxies:
     headers:
       Host: do-2device.myserver-prem.cloud
   interface-name: eth1
+
