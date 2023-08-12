@@ -1,5 +1,4 @@
 proxies:
-proxies:
 - name: Danu37_LiveBiznet37_1
   type: trojan
   server: 104.21.8.121
