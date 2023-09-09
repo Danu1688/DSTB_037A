@@ -1,7 +1,7 @@
 proxies:
 - name: LindoLive_LiveDO_1
   type: trojan
-  server: 104.21.8.121
+  server: circles.asia
   port: 443
   password: 3264c742-c6a1-4081-bce9-ab7fb3f456b2
   udp: true
@@ -15,7 +15,7 @@ proxies:
   interface-name: eth1
 - name: Danu37_LiveBiznet37_1
   type: trojan
-  server: 104.21.8.121
+  server: circles.asia
   port: 443
   password: 881f183c-d751-4c8c-9f5b-3f01d586197b
   udp: true
@@ -29,7 +29,7 @@ proxies:
   interface-name: eth1
 - name: Danu37_LiveBiznet37_2
   type: trojan
-  server: 172.67.139.111
+  server: circles.asia
   port: 443
   password: 881f183c-d751-4c8c-9f5b-3f01d586197b
   udp: true
