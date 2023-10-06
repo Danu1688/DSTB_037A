@@ -1,19 +1,5 @@
 proxies:
-- name: LindoNusa_LiveNusa_1
-  type: trojan
-  server: beacon.liveon.id
-  port: 443
-  password: 6af5ef06-7bf5-4706-8b71-5ac3df4be98d
-  udp: true
-  sni: vpna4mvbhv.scpotato.me
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: vpna4mvbhv.scpotato.me
-  interface-name: eth1
-- name: LindoLive_LiveDO_1
+- name: LindoLiveDo1_LiveDO_H1
   type: trojan
   server: circles.asia
   port: 443
@@ -27,7 +13,7 @@ proxies:
     headers:
       Host: danu529.foryou-ssh.my.id
   interface-name: eth1
-- name: LindoSSS_LiveDO_1
+- name: LindoSSSDo2_Live_H1
   type: trojan
   server: circles.asia
   port: 443
